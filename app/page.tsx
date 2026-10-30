@@ -20,7 +20,7 @@ import {
 } from "lucide-react";
 
 const APK_URL =
-  "https://github.com/full-alertas/descargas-android/releases/download/v1.0.1/AlertasAyacucho-v1.0.1.apk";
+  "https://github.com/full-alertas/alertas-ayacucho-web/releases/download/v1.0.3/AlertasAyacucho.apk";
 
 type PasoInstalacion = {
   titulo: string;
@@ -644,12 +644,12 @@ function SeccionDescarga({
           <Download className="mr-2 h-5 w-5" />
 
           {aceptoInstalacion
-            ? "Descargar APK v1.0.0"
-            : "Aceptar para descargar"}
+            ? "Última versión disponible"
+            : "Descargar última versión"}
         </button>
 
         <p className="mt-4 text-xs text-emerald-100">
-          AlertasAyacucho-v1.0.0.apk
+          AlertasAyacucho.apk
         </p>
       </div>
     </section>
